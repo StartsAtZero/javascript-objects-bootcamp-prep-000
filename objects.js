@@ -6,6 +6,5 @@ function updatePlaylist(playlist, artistName, songTitle){
 updatePlaylist(playlist, "Beyonce","Mine")
 
 function removeFromPlaylist(playlist, artistName){
-  delete playlist.artistName;
+  delete playlist.Madonna;
 }
-removeFromPlaylist(playlist,"Madonna");
